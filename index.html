@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="valentine-confession.css">
+        <title>Happy Valentine's Day ❤️</title>
+        <style>
+            .message {
+                font-family: 'Quicksand', sans-serif;
+                font-size: 16px;
+                line-height: 1.5;
+                max-width: 600px;
+                text-align: justify;
+                padding: 10px;
+            }
+            .container {
+                display: flex;
+                align-items: center;
+                gap: 20px; /* Space between image and message */
+            }
+            .image-container img {
+                width: 150px; /* Adjust the width of the image */
+                height: auto;
+                border-radius: 10px; /* Optional: Add rounded corners */
+            }
+        </style>
+    </head>
+    <body>
+        <p class="instruction">Click the heart!</p>
+        <div class="container">
+            <label>
+                <div class="heart">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Love_Heart_SVG.svg"></img>
+                </div>
+                <input id="messageState" type="checkbox" style="display:none"/>
+            </label>
+            
+            <div class="message">
+                <h1 style="font-family: Cinzel, serif; font-size: 32px; letter-spacing: 1.2px;">Dear Natrisha,</h1>
+                <p> 
+                    <span>
+                        &emsp;  Happy Valentine’s Day, Babi ko! ❤️
+
+								Gusto ko lang sabihin kung gaano kita kamahal at gaano ako ka-thankful na ikaw ang nandito sa buhay ko. Salamat sa pagmamahal mo, sa pag-aalaga, at higit sa lahat—sa pag-stay sakin kahit gaano pa ako kakulit at kahirap i-handle minsan.
+								Alam kong may moments na nakaka-stress ako, pero andyan ka pa rin, hindi ka bumibitaw. Sobrang swerte ko sayo.
+                    </span>
+                    <br> <br>
+                    <span>
+                        &emsp; Ikaw yung safe space ko, yung taong kaya kong takbuhan kapag pagod ako sa mundo. Kahit simpleng send pics mo lang, pakiramdam ko, kaya ko nang harapin kahit ano. Ikaw yung nagpapagaan ng araw ko, yung reason kung bakit kahit mahirap ang buhay,
+							   kaya pa rin ngumiti.
+							   
+							  <br><br>
+						&emsp; Mahal na mahal kita, at sana araw-araw maramdaman mo yun, hindi lang tuwing Valentine’s. Panghabambuhay to. Ikaw lang, wala nang iba.
+                    </span>      
+                </p>
+                <br>
+                <div class="sincere">
+                    <p style="font-weight: bold;"> With Love,</p>
+                    <p>Ven</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add the audio element -->
+        <audio id="valentineSong" src="https://www.dropbox.com/scl/fi/9xn6pjyxuk8dqq44tvcnh/blue.mp3?rlkey=3al9jjo0ps02m5y4llyxasxye&st=es50xpkb&raw=1"></audio>
+
+        <script src="jquery.js"></script>
+        <script src="jquery2.1.js"></script>
+        <script defer src="valentine-confession.js"></script>
+    </body>
+</html>
